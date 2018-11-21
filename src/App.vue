@@ -1,7 +1,8 @@
 <template>
   <div id="app">
+    <van-nav-bar title="标题" left-text="返回" right-text="按钮" left-arrow/>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
